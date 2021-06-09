@@ -1,5 +1,5 @@
 export default function handler (req, res) {
-    res.end({
+    res.status(200).json({
         response: [
             {
                 "code": 200,
