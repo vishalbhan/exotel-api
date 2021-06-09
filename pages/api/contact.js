@@ -1,15 +1,6 @@
 export default function handler(req, res) {
     // const { pid } = req.query
-    res.end({
-        "request_id": "5e320c2bdb8444c59d4d270715905cfc",
-        "method": "GET",
-        "http_code": 200,
-        "metadata": {
-            "count": 3,
-            "offset": 0,
-            "limit": 20,
-            "total": 3
-        },
+    res.send({
         "response": [
             {
                 "code": 200,
