@@ -1,4 +1,4 @@
-exports.handler = async function (event, context) {
+const handler = async function (event, context) {
     return {
         statusCode: 200,
         body: JSON.stringify({
@@ -129,3 +129,5 @@ exports.handler = async function (event, context) {
         })
     }
 }
+
+export default handler
